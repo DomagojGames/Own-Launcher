@@ -1,47 +1,34 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+# Eclipse stuff
+/.classpath
+/.project
+/.settings
 
-# Folder config file
-Desktop.ini
+# netbeans
+/nbproject
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+# we use maven!
+/build.xml
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+# maven
+/target
+/dependency-reduced-pom.xml
 
-# Windows shortcuts
-*.lnk
+# vim
+.*.sw[a-p]
 
-# =========================
-# Operating System Files
-# =========================
+# various other potential build files
+/build
+/bin
+/dist
+/manifest.mf
 
-# OSX
-# =========================
+# Mac filesystem dust
+/.DS_Store
 
-.DS_Store
-.AppleDouble
-.LSOverride
+# intellij
+*.iml
+*.ipr
+*.iws
+.idea/
 
-# Thumbnails
-._*
-
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+/_temp*
